@@ -15,25 +15,25 @@ $ npm install const-pinf-float32
 ## Usage
 
 ``` javascript
-var pinf = require( 'const-pinf-float32' );
+var PINF = require( 'const-pinf-float32' );
 ```
 
-#### pinf
+#### PINF
 
 Positive infinity.
 
 ``` javascript
-// pinf is implicitly promoted to a double-precision floating-point number...
-pinf === Number.POSITIVE_INFINITY;
+// PINF is implicitly promoted to a double-precision floating-point number...
+PINF === Number.POSITIVE_INFINITY;
 ```
 
 
 ## Examples
 
 ``` javascript
-var pinf = require( 'const-pinf-float32' );
+var PINF = require( 'const-pinf-float32' );
 
-console.log( pinf );
+console.log( PINF );
 ```
 
 To run the example code from the top-level application directory,

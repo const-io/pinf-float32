@@ -1,5 +1,5 @@
 'use strict';
 
-var pinf = require( './../lib' );
+var PINF = require( './../lib' );
 
-console.log( pinf );
+console.log( PINF );
